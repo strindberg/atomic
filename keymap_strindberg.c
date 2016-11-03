@@ -173,10 +173,10 @@ const macro_t *action_get_macro(keyrecord_t *record, uint8_t id, uint8_t opt) {
     switch (id) {
     case PASSWORD1A: return MACRO_PASSWORD1A;
     case PASSWORD1B: return MACRO_PASSWORD1B;
-    case PASSWORD2: return MACRO_PASSWORD2;
-    case PASSWORD3: return MACRO_PASSWORD3;
-    case SUSPEND:   return MACRO_SUSPEND;
-    case EMAIL1:    return MACRO_EMAIL1;
+    case PASSWORD2:  return MACRO_PASSWORD2;
+    case PASSWORD3:  return MACRO_PASSWORD3;
+    case SUSPEND:    return MACRO_SUSPEND;
+    case EMAIL1:     return MACRO_EMAIL1;
 
     case PW_A:    return MACRO_PW_A;
     case PW_B:    return MACRO_PW_B;
