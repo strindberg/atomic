@@ -95,7 +95,7 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
          TRNS, TRNS, TRNS, TRNS,       TRNS,       TRNS, TRNS, TRNS, TRNS,       TRNS, TRNS, TRNS),
 };
 
-const uint16_t PROGMEM fn_actions[] = {
+const action_t PROGMEM fn_actions[] = {
    [0] = ACTION_MODS_TAP_TOGGLE(MOD_LSFT),
    [1] = ACTION_LAYER_MOMENTARY(1),
    [4] = ACTION_MACRO(PASSWORD1A),
@@ -109,7 +109,7 @@ const uint16_t PROGMEM fn_actions[] = {
   [31] = ACTION_LAYER_MOMENTARY(4), // NOTE: reserved. Cannot overlap with layer 4 actions
 };
 
-const uint16_t PROGMEM fn_actions_4[] = {
+const action_t PROGMEM fn_actions_4[] = {
    [1] =  ACTION_MACRO(PW_A),
    [2] =  ACTION_MACRO(PW_B),
    [3] =  ACTION_MACRO(PW_C),
