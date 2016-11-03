@@ -1,2 +1,10 @@
 keymap_passwords.h
 keymap_letters.h
+.dep/
+*.eep
+*.elf
+*.hex
+*.lss
+*.map
+*.sym
+obj_atomic_lufa/
